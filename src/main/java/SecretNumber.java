@@ -9,13 +9,15 @@ public class SecretNumber {
 //        Collect user input
         Scanner reader = new Scanner(System.in);
         String secretNumber = reader.nextLine();
+        int secretNumber = integer.parseInt(guess)
 
 //        if chocolate is 3, print 'correct'
 //        otherwise print 'incorrect'
 
         if (secretNumber.equals("3")){
             System.out.println("That's correct!!");
-        } else {
+        } else{
+            secretNumber
             System.out.println("Wrong! Now leave.");
         }
 
